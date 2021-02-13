@@ -31,7 +31,6 @@ fetchCountry()
       setCountry(response.data)
     } catch (error) {
       isLoading(false)
-      console.log(error)
     }
   }
   function Search(country){
