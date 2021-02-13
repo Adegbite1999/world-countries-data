@@ -1,0 +1,85 @@
+body,html{
+    font-size: .75rem;
+}
+.header-text{
+    text-align: center;
+}
+ .header-text h1{
+    font-size: 3rem;
+    color: #ffa500;
+} 
+.header-text h3{
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 1rem 0 3rem;
+    padding: 1rem;
+    background-color: #f0f0f0;
+}
+#country-filter{
+  text-align: center;
+}
+input{
+  padding:10px;
+  outline:none;
+  width: 50%;
+}
+input:focus{
+  border: 1px solid #add8ea;
+}
+input::placeholder{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffa500;
+}
+.country{
+    max-width: 25rem;
+    min-width: 25rem; 
+    text-align: center;
+    margin: .5rem;
+    padding: 2rem;
+    border-radius: .2rem;
+    background: #fff;
+}
+
+.flag img {
+    width: 20rem;
+    height: 12rem;
+}
+.country-name{
+    font-size: 1.6rem;
+    color: #ffa500;
+}
+.desc p{
+    font-size: 2rem;
+    text-align: left;
+}
+ .desc span{
+    font-weight: 600;
+}  
+.footer{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.footer a{
+  text-decoration: none;
+}
+
+
+
+
+  /* Spinner */
+
+.loader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 200px;
+}
