@@ -35,7 +35,7 @@ fetchCountry()
     }
   }
   function Search(country){
-return country.filter((country) => country.name.indexOf(search) > -1)
+return country.filter((country) => country.name.indexOf(search) > -1 || country.name.toLowerCase().indexOf(search) > -1 || country.name.toUpperCase().indexOf(search) > -1 )
   }
   return (
     <div className="App">
