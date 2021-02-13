@@ -10,7 +10,7 @@ import './Styles/style.css'
 // const Loading = () =>{
 //   return(
 // <div><h1>Loading</h1></div>
-//   )
+// loader )
 // }
 
 
@@ -37,7 +37,6 @@ fetchCountry()
   function Search(country){
 return country.filter((country) => country.name.indexOf(search) > -1)
   }
-
   return (
     <div className="App">
      {loading? <div className="loader"><BounceLoader size={100} color='orange' /></div>: (
@@ -53,5 +52,4 @@ return country.filter((country) => country.name.indexOf(search) > -1)
     </div>
   );
 }
-
 export default App;
